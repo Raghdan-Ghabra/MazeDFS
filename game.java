@@ -68,7 +68,6 @@ public class game {
     }
 
     public void Downwards(char[][]s,node n) {
-        int countdown = 0;
         while (true) {
             try {
                 if (s[n.bx][n.by] == 'x') {
@@ -87,7 +86,6 @@ public class game {
 
 
     public void Left(char[][]s,node n){
-        int countleft = 0;
         while (true) {
             try {
                 if (s[n.bx][n.by] == 'x') {
