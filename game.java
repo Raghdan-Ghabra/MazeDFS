@@ -136,5 +136,5 @@ public class game {
                 stack.push(next(n.bx,n.by));
 
             }
-
+}
 }
